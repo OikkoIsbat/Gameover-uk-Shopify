@@ -1,0 +1,36 @@
+<script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
+
+<script>
+  window.renderOptIn = function() {
+    window.gapi.load('surveyoptin', function() {
+      window.gapi.surveyoptin.render(
+        {
+          // REQUIRED FIELDS
+          "merchant_id": 128010974,
+          "order_id": "ORDER_ID",
+          "email": "CUSTOMER_EMAIL",
+          "delivery_country": "COUNTRY_CODE",
+          "estimated_delivery_date": "YYYY-MM-DD",
+          "opt_in_style": "CENTER_DIALOG"
+
+          // OPTIONAL FIELDS
+          "products": [{"gtin":"GTIN1"}, {"gtin":"GTIN2"}]
+        });
+    });
+  }
+</script>
+<!-- END GCR Opt-in Module Code -->
+
+<!-- BEGIN GCR Language Code -->
+
+<script>
+
+window.___gcfg = {
+
+lang: 'en-GB'
+
+};
+
+</script>
+
+<!-- END GCR Language Code -->

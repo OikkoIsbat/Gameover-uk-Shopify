@@ -1,0 +1,58 @@
+{% assign questions = block.settings.q1 | append: "~" | append: block.settings.q2 | append: "~" | append: block.settings.q3 | append: "~" | append: block.settings.q4 | append: "~" | append: block.settings.q5 | append: "~" | append: block.settings.q6 | append: "~" | append: block.settings.q7 %}
+{% assign answers = block.settings.a1 | append: "~" | append: block.settings.a2 | append: "~" | append: block.settings.a3 | append: "~" | append: block.settings.a4 | append: "~" | append: block.settings.a5 | append: "~" | append: block.settings.a6 | append: "~" | append: block.settings.a7 %}
+
+{% assign qArray = questions | split: "~" %}
+{% assign aArray = answers | split: "~" %}
+
+<div class="product-faqs-section">
+    <div class="page-width">
+        <div class="faqs-image">
+            <img src="{{ block.settings.faq_image | img_url:'570x' }}"/>
+        </div>
+        <div class="faqs-content">
+            <p class="h5">{{ block.settings.subtitle }}</p>
+            <h3 class="faqs-title">{{ block.settings.title }}</h3>
+
+            <div class="questions-wrapper">
+                {% for question in qArray %}
+                    {% if aArray[forloop.index0] != blank %}
+                        <div class="faq-question {% if forloop.first == true %} question-open{% endif %}">
+                            <div class="faq-q">
+                                <span class="faq-q-text">{{ question }}</span>
+                                <span class="faq-icon faq-icon__minus">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29"><g><g><g>
+                                        <path fill="#111" d="M20.664 13.4H7.8c-.593 0-1.081.493-1.081 1.102 0 .605.484 1.103 1.081 1.103h12.867c.594 0 1.082-.493 1.082-1.103-.005-.605-.488-1.102-1.086-1.102z"/></g><g>
+                                        <path fill="#111" d="M27.966 14.5a14.134 14.134 0 0 1-4.023 9.9 13.715 13.715 0 0 1-4.365 2.998 13.411 13.411 0 0 1-5.345 1.102c-1.855 0-3.653-.372-5.346-1.102A13.642 13.642 0 0 1 4.522 24.4 14.133 14.133 0 0 1 .5 14.5c0-1.891.365-3.724 1.081-5.45A13.938 13.938 0 0 1 4.522 4.6a13.714 13.714 0 0 1 4.365-2.998A13.41 13.41 0 0 1 14.233.5c1.855 0 3.653.372 5.35 1.102a13.643 13.643 0 0 1 4.365 2.999 14.01 14.01 0 0 1 2.94 4.45 14.21 14.21 0 0 1 1.078 5.449zm-1.433 0c0-6.915-5.517-12.54-12.3-12.54-6.783.001-12.3 5.625-12.3 12.54 0 6.915 5.517 12.54 12.3 12.54s12.3-5.625 12.3-12.54z"/></g></g></g>
+                                    </svg>
+                                </span>
+                                <span class="faq-icon faq-icon__plus">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29"><g><g><g>
+                                        <path fill="#111" d="M20.664 13.396h-5.35V7.942c0-.605-.484-1.102-1.081-1.102-.594 0-1.082.493-1.082 1.102v5.459h-5.35c-.593 0-1.081.493-1.081 1.102 0 .605.484 1.103 1.081 1.103h5.355v5.458c0 .605.483 1.102 1.081 1.102.593 0 1.081-.493 1.081-1.102v-5.463h5.355c.593 0 1.081-.493 1.081-1.102-.009-.605-.492-1.103-1.09-1.103z"/></g><g>
+                                        <path fill="#111" d="M27.966 14.5a14.134 14.134 0 0 1-4.023 9.9 13.715 13.715 0 0 1-4.365 2.998 13.411 13.411 0 0 1-5.345 1.102c-1.855 0-3.653-.372-5.346-1.102A13.642 13.642 0 0 1 4.522 24.4 14.133 14.133 0 0 1 .5 14.5c0-1.891.365-3.724 1.081-5.45A13.938 13.938 0 0 1 4.522 4.6a13.714 13.714 0 0 1 4.365-2.998A13.41 13.41 0 0 1 14.233.5c1.855 0 3.653.372 5.345 1.102a13.643 13.643 0 0 1 4.365 2.999 14.134 14.134 0 0 1 4.022 9.9zm-1.433 0c0-6.915-5.517-12.54-12.3-12.54-6.783.001-12.3 5.625-12.3 12.54 0 6.915 5.517 12.54 12.3 12.54s12.3-5.625 12.3-12.54z"/></g></g></g>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="faq-a">
+                                {{ aArray[forloop.index0] }}
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script defer>
+    const questions = document.querySelectorAll('.faq-q');
+
+    for(let i = 0; i < questions.length; i++){
+        questions[i].addEventListener('click', e => {
+
+            let openQuestions = document.querySelectorAll('.question-open');
+
+            e.target.closest('.faq-question').classList.toggle('question-open');
+        });
+    }
+
+</script>
