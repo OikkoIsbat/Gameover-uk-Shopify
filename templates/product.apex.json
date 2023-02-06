@@ -1,0 +1,271 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-template",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#202a36",
+        "accent_color": "#ef2e54",
+        "description_style": "default",
+        "social_enable": true,
+        "preorder_enable": false,
+        "enable_payment_button": false,
+        "image_position": "left",
+        "image_size": "large",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "16370611327bb57668": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Game On.",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=-0TyUtGdXOA",
+        "divider": false
+      }
+    },
+    "1637060600d1ca7be1": {
+      "type": "text-and-image",
+      "blocks": {
+        "20c16f26-cc89-40ec-a1a7-33500647fd28": {
+          "type": "text_and_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-feature.png",
+            "title": "Multi-tilt Mechanism",
+            "main_text": ""
+          }
+        },
+        "da169f9f-101a-4be9-972b-a149204c8645": {
+          "type": "text_and_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-feature.png",
+            "title": "Integrated Lumbar Support",
+            "main_text": ""
+          }
+        },
+        "c82ce109-89f2-409d-90ac-854dafb1fdd1": {
+          "type": "text_and_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-feature.png",
+            "title": "Adjustable 4D Armrest",
+            "main_text": ""
+          }
+        },
+        "51274b22-0f43-440a-bff6-7cff91e8f8ab": {
+          "type": "text_and_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-feature.png",
+            "title": "Wide Base",
+            "main_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "20c16f26-cc89-40ec-a1a7-33500647fd28",
+        "da169f9f-101a-4be9-972b-a149204c8645",
+        "c82ce109-89f2-409d-90ac-854dafb1fdd1",
+        "51274b22-0f43-440a-bff6-7cff91e8f8ab"
+      ],
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": false,
+        "image": "shopify:\/\/shop_images\/aesthetic_540x_5d469616-1145-4f54-b213-a0dbd901336a.jpg",
+        "image_width": 500,
+        "subtitle": "Take Comfort in The Details",
+        "title_colored": "Premium",
+        "title": "Materials",
+        "text": "<p>Durable. Easy to clean. Water resistant.<\/p><p>Our Apex chair is made with perforated PU leather for enhanced breathability. <\/p><p>Cold-pressed foam padding adds unbeatable comfort during those long gaming sessions. <\/p><p>We even include a suede-covered memory foam head cushion, for added comfort and support.<\/p><p>All this on a solid steel frame with an aluminium base, and a safety class 4 gas lift.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false,
+        "icons_only": true
+      }
+    },
+    "16370608978f5ee876": {
+      "type": "text-and-image",
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": false,
+        "image": "shopify:\/\/shop_images\/lumbar_540x_307ed72a-ecda-417e-962d-ed34cf7c1766.png",
+        "image_width": 500,
+        "subtitle": "Ergonomic support",
+        "title_colored": "Integrated",
+        "title": "Lumbar Support",
+        "text": "<p>Because your back shouldn’t make weird noises after a long gaming session.<\/p><p>Forget the clunky lumbar pillow. The Apex Chair comes with integrated lumbar support, so you can hopefully skip your next visit to the chiropractor. <\/p><p>We even included a rotary dial, so you can customize the chair’s level of support until it’s the perfect fit for you.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false,
+        "icons_only": false
+      }
+    },
+    "1637061570e8a5dc71": {
+      "type": "text-and-image",
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": false,
+        "image": "shopify:\/\/shop_images\/armrest_540x_f52b019e-c46b-4265-ad34-66128ac2441a.jpg",
+        "image_width": 500,
+        "subtitle": "Play your way",
+        "title_colored": "Fully Adjustable",
+        "title": "Armrests",
+        "text": "<p>Your armrests need to work for you. Trust us: elbows are important.<\/p><p>The Apex Chair’s armrests are large, supportive, and stable. <\/p><p>We gave them extra padding for comfort. <\/p><p>We added a textured surface for extra grip. <\/p><p>We even made them fully customizable. <\/p><p>You can adjust the angle, depth, height, and the distance to the base of the seat.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false,
+        "icons_only": false
+      }
+    },
+    "1637062155d59d1497": {
+      "type": "text-and-image",
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": false,
+        "image": "shopify:\/\/shop_images\/apex-game-over_540x_b3f9a11c-283f-40a4-8cf6-df44ec15f6c6.jpg",
+        "image_width": 500,
+        "subtitle": "Look the part",
+        "title_colored": "Premium",
+        "title": "Aesthetics",
+        "text": "<p>You can choose from four luxurious suede colours with carbon fibre details. The Apex Chair features suede side panels, stitching to match, and a chevron pattern on the back rest and seat. <\/p><p>The finishing touch?<\/p><p>Quality embroidery of the Game Over and Apex logos.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false,
+        "icons_only": false
+      }
+    },
+    "1637062293e5fd1062": {
+      "type": "text-and-image",
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": false,
+        "image": "shopify:\/\/shop_images\/mechanism_540x_4dca1ab2-9db8-4f46-9a8c-cac819c1a976.jpg",
+        "image_width": 500,
+        "subtitle": "multiple comfort levels",
+        "title_colored": "Adjustable Backrest",
+        "title": "& Rocking Mechanism",
+        "text": "<p>The Apex Chair features an adjustable backrest and rocking mechanism, with multi-tilt mechanism and 165 degree recline. The seat height is adjustable, too. <\/p><p>Making your opponent tilt? That’s still entirely up to you.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false,
+        "icons_only": false
+      }
+    },
+    "163706249106ff06a6": {
+      "type": "text-and-image",
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": false,
+        "image": "shopify:\/\/shop_images\/DIMENSIONS_IMAGE_BLACK.jpg",
+        "image_width": 500,
+        "subtitle": "",
+        "title_colored": "Dimensions",
+        "title": "",
+        "text": "<p>Trying to fit your new chair into the perfect space? These dimensions should make the job easier:<\/p><p>Delivered to your door:<br\/>The Box Dimensions - L82 x W66 x H32 cm<\/p><p>All set up: <br\/>The Product Dimensions - H135 x W72 X D56 cm<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false,
+        "icons_only": false
+      }
+    },
+    "1637165409df86dd76": {
+      "type": "text-and-image",
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": false,
+        "image": "shopify:\/\/shop_images\/apex-red_540x_972d2587-ce42-4462-aac6-2bcd83622769.png",
+        "image_width": 500,
+        "subtitle": "The finer details",
+        "title_colored": "Specifications",
+        "title": "",
+        "text": "<p>- Durable PU and perforated leather.<br\/>- Premium quality cold-pressed foam.<br\/>- Adjustable lumbar support.<br\/>- 4D adjustable armrests.<br\/>- Adjustable seat height, angle and recline up to 170 degrees.<br\/>- Unmatched aesthetics: 4 premium suede colour options.<br\/>- Wide seating surface.<br\/>- Memory foam headrest.<br\/>- Rocking mechanism.<br\/>- Aluminium wheel base for a lightweight and stylish finish.<br\/>- Safety Class 4 piston gas lift.<br\/>- Easy to move around.<br\/>- Moisture-resistant wipeable leather \/ easy to clean.<br\/>- Supports up to 150KG<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right",
+        "divider": false,
+        "icons_only": false
+      }
+    },
+    "16371627247d81365d": {
+      "type": "text-and-image",
+      "settings": {
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "accent_color": "#ef2e54",
+        "add_margin": true,
+        "image": "shopify:\/\/shop_images\/apex-game-over_540x_b3f9a11c-283f-40a4-8cf6-df44ec15f6c6.jpg",
+        "image_width": 500,
+        "subtitle": "Get set up",
+        "title_colored": "Product",
+        "title": "Assembly",
+        "text": "<p>As easy as one, two, three? Almost! If you’re ready to get set up and get gaming, click the link below and head to our product assembly video. The instructions are incredibly simple!<\/p>",
+        "button_label": "View video on Youtube",
+        "button_link": "https:\/\/www.youtube.com\/watch?v=TI64UpujJ6o",
+        "layout": "left",
+        "divider": false,
+        "icons_only": false
+      }
+    },
+    "1637061135aa344605": {
+      "type": "loox-all-reviews",
+      "settings": {
+        "only_photos": false,
+        "hide_thumbnails": false,
+        "product_handle": "{{ product }}",
+        "aggregated": false,
+        "data-limit": 20,
+        "maxwidth": 1080
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "show_section": true,
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16370611327bb57668",
+    "1637060600d1ca7be1",
+    "16370608978f5ee876",
+    "1637061570e8a5dc71",
+    "1637062155d59d1497",
+    "1637062293e5fd1062",
+    "163706249106ff06a6",
+    "1637165409df86dd76",
+    "16371627247d81365d",
+    "1637061135aa344605",
+    "product-recommendations",
+    "recently-viewed"
+  ]
+}
